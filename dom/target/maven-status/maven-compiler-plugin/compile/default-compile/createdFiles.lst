@@ -1,3 +1,8 @@
-dom/simple/SimpleObjects.class
 dom/simple/SimpleObject.class
+dom/simple/Usuario.class
+dom/simple/SimpleObjects.class
+dom/simple/Roles.class
+dom/simple/QUsuario.class
 dom/simple/QSimpleObject.class
+dom/simple/QRoles.class
+dom/simple/UsuarioRepository.class
