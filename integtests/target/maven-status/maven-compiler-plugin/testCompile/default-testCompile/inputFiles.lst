@@ -1,0 +1,8 @@
+/home/leandro/workspace/isisSimple160/isisSimple/integtests/src/test/java/integration/glue/CatalogOfFixturesGlue.java
+/home/leandro/workspace/isisSimple160/isisSimple/integtests/src/test/java/integration/SimpleAppSystemInitializer.java
+/home/leandro/workspace/isisSimple160/isisSimple/integtests/src/test/java/integration/tests/SimpleAppIntegTest.java
+/home/leandro/workspace/isisSimple160/isisSimple/integtests/src/test/java/integration/glue/BootstrappingGlue.java
+/home/leandro/workspace/isisSimple160/isisSimple/integtests/src/test/java/integration/tests/smoke/SimpleObjectsTest_listAll_and_create.java
+/home/leandro/workspace/isisSimple160/isisSimple/integtests/src/test/java/integration/glue/InMemoryDBForSimpleApp.java
+/home/leandro/workspace/isisSimple160/isisSimple/integtests/src/test/java/integration/specs/simple/RunSpecs.java
+/home/leandro/workspace/isisSimple160/isisSimple/integtests/src/test/java/integration/glue/simple/SimpleObjectGlue.java
