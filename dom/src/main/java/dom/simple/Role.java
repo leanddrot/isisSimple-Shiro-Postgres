@@ -80,4 +80,24 @@ public class Role implements Comparable<Role> {
 		int last = this.getRoleName().compareTo(other.getRoleName());
 		return last;
 	}
+	
+	//region > remove permission (action)
+    // //////////////////////////////////////
+    
+    @MemberOrder(sequence = "5")
+    
+    public Role removePermission(
+            final @Named("Permission") Permission permission) {
+              
+    	getPermissionsList().remove(permission);
+    	
+        return this;
+    }
+
+    //endregion
+
+    
+    public SortedSet<Permission> choices0RemovePermission(){
+    	return getPermissionsList();
+    }
 }
