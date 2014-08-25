@@ -1,8 +1,12 @@
+dom/simple/ShiroUser.class
 dom/simple/SimpleObject.class
-dom/simple/Usuario.class
+dom/simple/QPermission.class
+dom/simple/ShiroUserRepository.class
 dom/simple/SimpleObjects.class
-dom/simple/Roles.class
-dom/simple/QUsuario.class
+dom/simple/PermissionRepository.class
 dom/simple/QSimpleObject.class
-dom/simple/QRoles.class
-dom/simple/UsuarioRepository.class
+dom/simple/RoleRepository.class
+dom/simple/Role.class
+dom/simple/QShiroUser.class
+dom/simple/QRole.class
+dom/simple/Permission.class
