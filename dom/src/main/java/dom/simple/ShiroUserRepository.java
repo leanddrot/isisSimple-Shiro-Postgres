@@ -14,7 +14,7 @@ import org.apache.isis.applib.annotation.ActionSemantics.Of;
 
 
 @DomainService(menuOrder = "25", repositoryFor = ShiroUser.class)
-@Named("ShiroUser")
+@Named("Shiro User")
 public class ShiroUserRepository {
 	
 
@@ -37,6 +37,7 @@ public class ShiroUserRepository {
     @Bookmarkable
     @ActionSemantics(Of.SAFE)
     @MemberOrder(sequence = "1")
+    @Named("List All Users")
     public List<ShiroUser> listAll() {
         return container.allInstances(ShiroUser.class);
     }
@@ -47,7 +48,7 @@ public class ShiroUserRepository {
     // //////////////////////////////////////
     
     @MemberOrder(sequence = "2")
-    
+    @Named("Create new User")
     public ShiroUser create(
             final @Named("Name") String userName,
             final @Named("Password") String password,

@@ -36,6 +36,7 @@ public class PermissionRepository {
     @Bookmarkable
     @ActionSemantics(Of.SAFE)
     @MemberOrder(sequence = "1")
+    @Named("List Permissions")
     public List<Permission> listAll() {
         return container.allInstances(Permission.class);
     }
@@ -46,7 +47,7 @@ public class PermissionRepository {
     // //////////////////////////////////////
     
     @MemberOrder(sequence = "2")
-    
+    @Named("Create New Permission")
     public Permission create(
             final @Named("Description") String permissionDescription,
             final @Named("Permission") String permissionText) {

@@ -40,7 +40,7 @@ public class Role implements Comparable<Role> {
 
 	// {{ PermissionsList (Collection)
 	@Join
-	@Element(dependent = "true")
+	@Element(dependent = "false")
 	private SortedSet<Permission> permissionsList = new TreeSet<Permission>();
 
 	@MemberOrder(sequence = "3")
@@ -59,7 +59,7 @@ public class Role implements Comparable<Role> {
     // //////////////////////////////////////
     
     @MemberOrder(sequence = "4")
-    
+    @Named("Add Permission for this Role")
     public Role addPermission(
             final @Named("Permission") Permission permission) {
               
@@ -86,11 +86,11 @@ public class Role implements Comparable<Role> {
     
     @MemberOrder(sequence = "5")
     
+    @Named("Remove Permission for this Role")
     public Role removePermission(
             final @Named("Permission") Permission permission) {
-              
-    	getPermissionsList().remove(permission);
     	
+    	getPermissionsList().remove(permission);    	
         return this;
     }
 

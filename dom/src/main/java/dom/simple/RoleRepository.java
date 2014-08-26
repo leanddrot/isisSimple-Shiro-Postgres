@@ -36,6 +36,7 @@ public class RoleRepository {
     @Bookmarkable
     @ActionSemantics(Of.SAFE)
     @MemberOrder(sequence = "1")
+    @Named("List Roles")
     public List<Role> listAll() {
         return container.allInstances(Role.class);
     }
@@ -46,7 +47,7 @@ public class RoleRepository {
     // //////////////////////////////////////
     
     @MemberOrder(sequence = "2")
-    
+    @Named("Create New Role")
     public Role create(
             final @Named("Name") String roleName,
             final @Named("Permission") Permission permission) {

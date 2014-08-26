@@ -78,7 +78,7 @@ public class ShiroUser {
     // //////////////////////////////////////
     
     @MemberOrder(sequence = "3")
-    
+    @Named("Add Role for this User")
     public ShiroUser addRole(
             final @Named("Role") Role role) {
               
