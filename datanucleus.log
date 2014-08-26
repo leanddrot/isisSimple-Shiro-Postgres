@@ -27583,3 +27583,594 @@
 11:52:19,561 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.simple.SimpleObject
 11:52:19,568 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.SimpleObject" ha terminado
 11:52:19,576 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases. Tiempos : input=539 ms, enhance=492 ms, total=1031 ms. Compruebe el LOG para los detalles
+17:06:49,262 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:06:49,534 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.jdo.query version 3.0.2 at URL file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar.
+17:06:49,676 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar!/plugin.xml.
+17:06:49,682 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar!/plugin.xml.
+17:06:49,696 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.types.jodatime version 3.2.1 at URL file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar.
+17:06:49,762 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar!/plugin.xml.
+17:06:49,795 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar!/plugin.xml.
+17:06:49,820 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 3.2.7 at URL file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar.
+17:06:49,899 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar!/plugin.xml.
+17:06:49,930 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar!/plugin.xml.
+17:06:49,966 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 3.2.10 at URL file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar.
+17:06:50,202 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar!/plugin.xml.
+17:06:50,329 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar!/plugin.xml.
+17:06:50,420 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 3.2.11 at URL file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar.
+17:06:50,549 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar!/plugin.xml.
+17:06:50,651 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/leandro/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar!/plugin.xml.
+17:06:50,659 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/home/leandro/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+17:06:50,665 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/leandro/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:06:50,666 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/leandro/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:06:51,077 (main) DEBUG [DataNucleus.Persistence] - Tipos de Java inicializando ...
+17:06:51,127 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalDate : java type not present in CLASSPATH
+17:06:51,130 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalDateTime : java type not present in CLASSPATH
+17:06:51,130 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalTime : java type not present in CLASSPATH
+17:06:51,314 (main) DEBUG [DataNucleus.Persistence] - Soporte para tipos de Java listo : tipos soportados = java.awt.Color, java.lang.Float, [Ljava.lang.Integer;, java.sql.Time, java.util.SortedSet, java.net.URL, java.util.Date, java.util.PriorityQueue, float, [Ljava.lang.Character;, [Ljava.lang.Double;, java.lang.Integer, java.math.BigDecimal, java.util.Vector, java.lang.Character, java.lang.Enum, java.lang.Long, java.lang.Short, java.util.Locale, java.util.Map, java.math.BigInteger, java.net.URI, java.lang.Byte, java.util.GregorianCalendar, java.awt.image.BufferedImage, byte, double, java.util.TimeZone, java.sql.Timestamp, java.util.Collection, java.util.Set, java.util.UUID, [Ljava.lang.String;, java.util.List, [Ljava.lang.Short;, java.lang.StringBuilder, java.util.Queue, java.util.SortedMap, [Ljava.lang.Enum;, [Ljava.lang.Boolean;, java.lang.Double, [Ljava.util.Date;, [B, [C, org.joda.time.LocalTime, org.joda.time.Duration, [D, java.util.HashMap, java.util.Currency, [F, long, java.util.Stack, java.util.TreeSet, [I, java.util.ArrayList, [J, java.util.HashSet, java.util.LinkedHashMap, org.joda.time.Interval, java.util.Calendar, java.lang.StringBuffer, [S, [Ljava.math.BigInteger;, java.lang.Boolean, [Ljava.lang.Number;, java.lang.String, [Ljava.math.BigDecimal;, java.lang.Number, java.util.LinkedList, java.util.Hashtable, java.util.LinkedHashSet, [Z, org.joda.time.Period, [Ljava.lang.Float;, java.util.Properties, [Ljava.lang.Byte;, org.joda.time.DateTime, [Ljava.util.Locale;, int, java.sql.Date, org.joda.time.LocalDate, boolean, java.util.TreeMap, [Ljava.lang.Long;, char, short, java.lang.Class, java.util.BitSet, java.util.Arrays$ArrayList
+17:06:51,315 (main) DEBUG [DataNucleus.Persistence] - Inicializando TypeConverters ...
+17:06:51,318 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigDecimal<->java.lang.String using org.datanucleus.store.types.converters.BigDecimalStringConverter
+17:06:51,321 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigInteger<->java.lang.String using org.datanucleus.store.types.converters.BigIntegerStringConverter
+17:06:51,323 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.BitSet<->java.lang.String using org.datanucleus.store.types.converters.BitSetStringConverter
+17:06:51,326 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Calendar<->java.lang.String using org.datanucleus.store.types.converters.CalendarStringConverter
+17:06:51,326 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Class<->java.lang.String using org.datanucleus.store.types.converters.ClassStringConverter
+17:06:51,327 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.awt.Color<->java.lang.String using org.datanucleus.store.types.converters.ColorStringConverter
+17:06:51,329 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Integer<->java.lang.String using org.datanucleus.store.types.converters.IntegerStringConverter
+17:06:51,330 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Long<->java.lang.String using org.datanucleus.store.types.converters.LongStringConverter
+17:06:51,332 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Currency<->java.lang.String using org.datanucleus.store.types.converters.CurrencyStringConverter
+17:06:51,334 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.Long using org.datanucleus.store.types.converters.DateLongConverter
+17:06:51,336 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.String using org.datanucleus.store.types.converters.DateStringConverter
+17:06:51,339 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Locale<->java.lang.String using org.datanucleus.store.types.converters.LocaleStringConverter
+17:06:51,341 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.Long using org.datanucleus.store.types.converters.SqlDateLongConverter
+17:06:51,345 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.String using org.datanucleus.store.types.converters.SqlDateStringConverter
+17:06:51,348 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimeLongConverter
+17:06:51,349 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.String using org.datanucleus.store.types.converters.SqlTimeStringConverter
+17:06:51,351 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Timestamp<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimestampLongConverter
+17:06:51,353 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuffer<->java.lang.String using org.datanucleus.store.types.converters.StringBufferStringConverter
+17:06:51,354 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuilder<->java.lang.String using org.datanucleus.store.types.converters.StringBuilderStringConverter
+17:06:51,356 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.TimeZone<->java.lang.String using org.datanucleus.store.types.converters.TimeZoneStringConverter
+17:06:51,358 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URI<->java.lang.String using org.datanucleus.store.types.converters.URIStringConverter
+17:06:51,360 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URL<->java.lang.String using org.datanucleus.store.types.converters.URLStringConverter
+17:06:51,361 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.UUID<->java.lang.String using org.datanucleus.store.types.converters.UUIDStringConverter
+17:06:51,367 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDate<->java.lang.String ignored since java type not present in CLASSPATH
+17:06:51,369 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.String ignored since java type not present in CLASSPATH
+17:06:51,371 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.Long ignored since java type not present in CLASSPATH
+17:06:51,373 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDateTime<->java.lang.String ignored since java type not present in CLASSPATH
+17:06:51,381 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->java.lang.String using org.datanucleus.store.types.converters.SerializableStringConverter
+17:06:51,383 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->[B using org.datanucleus.store.types.converters.SerializableByteArrayConverter
+17:06:51,386 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.DateTime<->java.lang.String using org.datanucleus.store.types.converters.JodaDateTimeStringConverter
+17:06:51,388 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Duration<->java.lang.String using org.datanucleus.store.types.converters.JodaDurationStringConverter
+17:06:51,389 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Interval<->java.lang.String using org.datanucleus.store.types.converters.JodaIntervalStringConverter
+17:06:51,392 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalDate<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalDateStringConverter
+17:06:51,393 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalTime<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalTimeStringConverter
+17:06:51,395 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Period<->java.lang.String using org.datanucleus.store.types.converters.JodaPeriodStringConverter
+17:06:51,396 (main) DEBUG [DataNucleus.Persistence] - TypeConverters listo
+17:06:51,397 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+17:06:51,400 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versiï¿½n 3.2.11) para el API "JDO" utilisando el JRE "1.8"
+17:06:51,401 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+17:06:51,402 (main) DEBUG [DataNucleus.Enhancer] - >>  /usr/local/apache-maven/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar
+17:06:51,403 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes for JRE=1.8 with stackmap-frames=true
+17:06:51,463 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata de las clases "[dom.simple.QSimpleObject, dom.simple.QShiroUser, dom.simple.RoleRepository, dom.simple.QPermission, dom.simple.Permission, dom.simple.PermissionRepository, dom.simple.SimpleObjects, dom.simple.Role, dom.simple.QRole, dom.simple.ShiroUser, dom.simple.SimpleObject, dom.simple.ShiroUserRepository]" ...
+17:06:51,491 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject" en /META-INF/package.jdo
+17:06:51,492 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject" en /WEB-INF/package.jdo
+17:06:51,492 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject" en /package.jdo
+17:06:51,495 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject" en /dom/package.jdo
+17:06:51,495 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject" en /dom.jdo
+17:06:51,496 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject" en /dom/simple/package.jdo
+17:06:51,497 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject" en /dom/simple.jdo
+17:06:51,498 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject" en /dom/simple/QSimpleObject.jdo
+17:06:51,498 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.simple.QSimpleObject"
+17:06:51,499 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.simple.QSimpleObject" no tener Meta-Data
+17:06:51,500 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.simple.QSimpleObject" no tiene MetaData o annotaciones.
+17:06:51,502 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser" en /META-INF/package.jdo
+17:06:51,503 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser" en /WEB-INF/package.jdo
+17:06:51,504 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser" en /package.jdo
+17:06:51,504 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser" en /dom/package.jdo
+17:06:51,505 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser" en /dom.jdo
+17:06:51,508 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser" en /dom/simple/package.jdo
+17:06:51,509 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser" en /dom/simple.jdo
+17:06:51,510 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser" en /dom/simple/QShiroUser.jdo
+17:06:51,514 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.simple.QShiroUser"
+17:06:51,514 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.simple.QShiroUser" no tener Meta-Data
+17:06:51,514 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.simple.QShiroUser" no tiene MetaData o annotaciones.
+17:06:51,537 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.RoleRepository" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:06:51,547 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository" en /META-INF/package.jdo
+17:06:51,548 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository" en /WEB-INF/package.jdo
+17:06:51,552 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository" en /package.jdo
+17:06:51,552 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository" en /dom/package.jdo
+17:06:51,553 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository" en /dom.jdo
+17:06:51,553 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository" en /dom/simple/package.jdo
+17:06:51,554 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository" en /dom/simple.jdo
+17:06:51,554 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository" en /dom/simple/RoleRepository.jdo
+17:06:51,554 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.simple.RoleRepository"
+17:06:51,554 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.RoleRepository" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:06:51,555 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.simple.RoleRepository" no tener Meta-Data
+17:06:51,555 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.simple.RoleRepository" no tiene MetaData o annotaciones.
+17:06:51,562 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QPermission" en /META-INF/package.jdo
+17:06:51,562 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QPermission" en /WEB-INF/package.jdo
+17:06:51,566 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QPermission" en /package.jdo
+17:06:51,567 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QPermission" en /dom/package.jdo
+17:06:51,567 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QPermission" en /dom.jdo
+17:06:51,574 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QPermission" en /dom/simple/package.jdo
+17:06:51,575 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QPermission" en /dom/simple.jdo
+17:06:51,575 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QPermission" en /dom/simple/QPermission.jdo
+17:06:51,575 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.simple.QPermission"
+17:06:51,576 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.simple.QPermission" no tener Meta-Data
+17:06:51,576 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.simple.QPermission" no tiene MetaData o annotaciones.
+17:06:51,747 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.Permission" tiene anotaciones de JDO y vamos a usarlas.
+17:06:51,793 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.PermissionRepository" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:06:51,794 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository" en /META-INF/package.jdo
+17:06:51,795 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository" en /WEB-INF/package.jdo
+17:06:51,795 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository" en /package.jdo
+17:06:51,796 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository" en /dom/package.jdo
+17:06:51,796 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository" en /dom.jdo
+17:06:51,802 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository" en /dom/simple/package.jdo
+17:06:51,803 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository" en /dom/simple.jdo
+17:06:51,803 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository" en /dom/simple/PermissionRepository.jdo
+17:06:51,803 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.simple.PermissionRepository"
+17:06:51,803 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.PermissionRepository" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:06:51,804 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.simple.PermissionRepository" no tener Meta-Data
+17:06:51,804 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.simple.PermissionRepository" no tiene MetaData o annotaciones.
+17:06:51,809 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.SimpleObjects" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:06:51,811 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects" en /META-INF/package.jdo
+17:06:51,812 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects" en /WEB-INF/package.jdo
+17:06:51,812 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects" en /package.jdo
+17:06:51,813 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects" en /dom/package.jdo
+17:06:51,813 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects" en /dom.jdo
+17:06:51,814 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects" en /dom/simple/package.jdo
+17:06:51,818 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects" en /dom/simple.jdo
+17:06:51,821 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects" en /dom/simple/SimpleObjects.jdo
+17:06:51,823 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.simple.SimpleObjects"
+17:06:51,823 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.SimpleObjects" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:06:51,823 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.simple.SimpleObjects" no tener Meta-Data
+17:06:51,824 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.simple.SimpleObjects" no tiene MetaData o annotaciones.
+17:06:51,825 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.Role" tiene anotaciones de JDO y vamos a usarlas.
+17:06:51,874 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QRole" en /META-INF/package.jdo
+17:06:51,874 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QRole" en /WEB-INF/package.jdo
+17:06:51,874 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QRole" en /package.jdo
+17:06:51,875 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QRole" en /dom/package.jdo
+17:06:51,875 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QRole" en /dom.jdo
+17:06:51,876 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QRole" en /dom/simple/package.jdo
+17:06:51,876 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QRole" en /dom/simple.jdo
+17:06:51,876 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.QRole" en /dom/simple/QRole.jdo
+17:06:51,877 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.simple.QRole"
+17:06:51,878 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.simple.QRole" no tener Meta-Data
+17:06:51,878 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.simple.QRole" no tiene MetaData o annotaciones.
+17:06:51,880 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.ShiroUser" tiene anotaciones de JDO y vamos a usarlas.
+17:06:51,910 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.SimpleObject" tiene anotaciones de JDO y vamos a usarlas.
+17:06:51,918 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.ShiroUserRepository" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:06:51,919 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository" en /META-INF/package.jdo
+17:06:51,919 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository" en /WEB-INF/package.jdo
+17:06:51,920 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository" en /package.jdo
+17:06:51,920 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository" en /dom/package.jdo
+17:06:51,920 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository" en /dom.jdo
+17:06:51,921 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository" en /dom/simple/package.jdo
+17:06:51,922 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository" en /dom/simple.jdo
+17:06:51,922 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository" en /dom/simple/ShiroUserRepository.jdo
+17:06:51,922 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.simple.ShiroUserRepository"
+17:06:51,922 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.ShiroUserRepository" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:06:51,923 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.simple.ShiroUserRepository" no tener Meta-Data
+17:06:51,923 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.simple.ShiroUserRepository" no tiene MetaData o annotaciones.
+17:06:51,923 (main) DEBUG [DataNucleus.MetaData] - Populaciï¿½n del MetaData ...
+17:06:51,927 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.Permission" : Populando Meta-Data
+17:06:51,936 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.Role" : Populando Meta-Data
+17:06:51,939 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.ShiroUser" : Populando Meta-Data
+17:06:51,941 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.ShiroUser" campo "container" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+17:06:51,943 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /META-INF/package.jdo
+17:06:51,944 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /WEB-INF/package.jdo
+17:06:51,945 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /package.jdo
+17:06:51,945 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/package.jdo
+17:06:51,946 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org.jdo
+17:06:51,946 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/package.jdo
+17:06:51,946 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache.jdo
+17:06:51,947 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis/package.jdo
+17:06:51,947 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis.jdo
+17:06:51,948 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis/applib/package.jdo
+17:06:51,949 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis/applib.jdo
+17:06:51,951 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis/applib/DomainObjectContainer.jdo
+17:06:51,951 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer"
+17:06:51,952 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "org.apache.isis.applib.DomainObjectContainer" no tener Meta-Data
+17:06:51,954 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.SimpleObject" : Populando Meta-Data
+17:06:51,954 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.SimpleObject" campo "container" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+17:06:51,955 (main) DEBUG [DataNucleus.MetaData] - Inicialisaciï¿½n del MetaData ...
+17:06:51,957 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.Permission" : Inicializando Meta-Data
+17:06:51,962 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.Role" : Inicializando Meta-Data
+17:06:51,963 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.ShiroUser" : Inicializando Meta-Data
+17:06:51,966 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.simple.SimpleObject" : Inicializando Meta-Data
+17:06:51,966 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata ya ha terminado
+17:06:51,997 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.Permission" empezando ...
+17:06:52,080 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no implementa el interfaz "javax.jdo.spi.PersistenceCapable"!
+17:06:52,080 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el campo "jdoFlags" pero lo necesita
+17:06:52,081 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el campo "jdoPersistenceCapableSuperclass" pero lo necesita
+17:06:52,081 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el campo "jdoInheritedFieldCount" pero lo necesita
+17:06:52,081 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el campo "jdoStateManager" pero lo necesita
+17:06:52,081 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el campo "jdoFieldNames" pero lo necesita
+17:06:52,081 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el campo "jdoFieldFlags" pero lo necesita
+17:06:52,081 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el campo "jdoFieldTypes" pero lo necesita
+17:06:52,081 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoIsTransactional" pero lo necesita
+17:06:52,081 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoGetObjectId" pero lo necesita
+17:06:52,082 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoGetPersistenceManager" pero lo necesita
+17:06:52,082 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoIsDirty" pero lo necesita
+17:06:52,082 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoIsDetached" pero lo necesita
+17:06:52,082 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoNewObjectIdInstance" pero lo necesita
+17:06:52,082 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoNewObjectIdInstance" pero lo necesita
+17:06:52,082 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoCopyFields" pero lo necesita
+17:06:52,082 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoIsDeleted" pero lo necesita
+17:06:52,082 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoNewInstance" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoNewInstance" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoGetVersion" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoProvideField" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoGetManagedFieldCount" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoReplaceField" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoCopyField" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoProvideFields" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoCopyKeyFieldsFromObjectId" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoCopyKeyFieldsFromObjectId" pero lo necesita
+17:06:52,083 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoSuperClone" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "__jdoGetInheritedFieldCount" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "__jdoFieldTypesInit" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoReplaceFlags" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "___jdo$loadClass" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoMakeDirty" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoGetTransactionalObjectId" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "__jdoFieldNamesInit" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoIsNew" pero lo necesita
+17:06:52,084 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoReplaceStateManager" pero lo necesita
+17:06:52,085 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "__jdoFieldFlagsInit" pero lo necesita
+17:06:52,085 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoPreSerialize" pero lo necesita
+17:06:52,085 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoIsPersistent" pero lo necesita
+17:06:52,085 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoReplaceFields" pero lo necesita
+17:06:52,085 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoCopyKeyFieldsToObjectId" pero lo necesita
+17:06:52,085 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "jdoCopyKeyFieldsToObjectId" pero lo necesita
+17:06:52,085 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Permission" no tiene el metodo "__jdoPersistenceCapableSuperclassInit" pero lo necesita
+17:06:52,110 (main) DEBUG [DataNucleus.Enhancer] - Agregando el interfaz: javax.jdo.spi.PersistenceCapable
+17:06:52,127 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String jdoGetpermissionDescription()"
+17:06:52,136 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoSetpermissionDescription(class java.lang.String val)"
+17:06:52,137 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String jdoGetpermissionText()"
+17:06:52,137 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoSetpermissionText(class java.lang.String val)"
+17:06:52,139 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "javax.jdo.spi.StateManager jdoStateManager"
+17:06:52,139 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "byte jdoFlags"
+17:06:52,139 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[B jdoFieldFlags"
+17:06:52,139 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "java.lang.Class jdoPersistenceCapableSuperclass"
+17:06:52,140 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.Class; jdoFieldTypes"
+17:06:52,140 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.String; jdoFieldNames"
+17:06:52,140 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "int jdoInheritedFieldCount"
+17:06:52,153 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void <clinit>()"
+17:06:52,154 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+17:06:52,155 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+17:06:52,155 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+17:06:52,156 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+17:06:52,156 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetObjectId()"
+17:06:52,157 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetVersion()"
+17:06:52,158 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoPreSerialize()"
+17:06:52,164 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+17:06:52,170 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetTransactionalObjectId()"
+17:06:52,177 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDeleted()"
+17:06:52,178 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDirty()"
+17:06:52,178 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsNew()"
+17:06:52,178 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsPersistent()"
+17:06:52,179 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsTransactional()"
+17:06:52,179 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoMakeDirty(class java.lang.String fieldName)"
+17:06:52,180 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoNewObjectIdInstance()"
+17:06:52,180 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+17:06:52,181 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoProvideFields(class [I indices)"
+17:06:52,182 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceFields(class [I indices)"
+17:06:52,183 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceFlags()"
+17:06:52,184 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+17:06:52,184 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDetached()"
+17:06:52,185 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+17:06:52,186 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+17:06:52,187 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceField(int index)"
+17:06:52,188 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoProvideField(int index)"
+17:06:52,190 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyField(class dom.simple.Permission obj, int index)"
+17:06:52,191 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+17:06:52,192 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.String; __jdoFieldNamesInit()"
+17:06:52,192 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.Class; __jdoFieldTypesInit()"
+17:06:52,192 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[B __jdoFieldFlagsInit()"
+17:06:52,193 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int __jdoGetInheritedFieldCount()"
+17:06:52,193 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int jdoGetManagedFieldCount()"
+17:06:52,193 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+17:06:52,195 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+17:06:52,196 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoSuperClone()"
+17:06:52,199 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/leandro/workspace/isisSimple160/isisSimple/dom/target/classes/dom/simple/Permission.class" con definicion enhanced
+17:06:52,200 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.simple.Permission
+17:06:52,201 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.Permission" ha terminado
+17:06:52,201 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.Role" empezando ...
+17:06:52,202 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no implementa el interfaz "javax.jdo.spi.PersistenceCapable"!
+17:06:52,203 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el campo "jdoFlags" pero lo necesita
+17:06:52,203 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el campo "jdoPersistenceCapableSuperclass" pero lo necesita
+17:06:52,203 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el campo "jdoInheritedFieldCount" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el campo "jdoStateManager" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el campo "jdoFieldNames" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el campo "jdoFieldFlags" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el campo "jdoFieldTypes" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoIsTransactional" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoGetObjectId" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoGetPersistenceManager" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoIsDirty" pero lo necesita
+17:06:52,204 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoIsDetached" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoNewObjectIdInstance" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoNewObjectIdInstance" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoCopyFields" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoIsDeleted" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoNewInstance" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoNewInstance" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoGetVersion" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoProvideField" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoGetManagedFieldCount" pero lo necesita
+17:06:52,205 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoReplaceField" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoCopyField" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoProvideFields" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoCopyKeyFieldsFromObjectId" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoCopyKeyFieldsFromObjectId" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoSuperClone" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "__jdoGetInheritedFieldCount" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "__jdoFieldTypesInit" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoReplaceFlags" pero lo necesita
+17:06:52,206 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "___jdo$loadClass" pero lo necesita
+17:06:52,207 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoMakeDirty" pero lo necesita
+17:06:52,207 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoGetTransactionalObjectId" pero lo necesita
+17:06:52,207 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "__jdoFieldNamesInit" pero lo necesita
+17:06:52,217 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoIsNew" pero lo necesita
+17:06:52,217 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoReplaceStateManager" pero lo necesita
+17:06:52,218 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "__jdoFieldFlagsInit" pero lo necesita
+17:06:52,221 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoPreSerialize" pero lo necesita
+17:06:52,222 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoIsPersistent" pero lo necesita
+17:06:52,222 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoReplaceFields" pero lo necesita
+17:06:52,222 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoCopyKeyFieldsToObjectId" pero lo necesita
+17:06:52,222 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "jdoCopyKeyFieldsToObjectId" pero lo necesita
+17:06:52,222 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.Role" no tiene el metodo "__jdoPersistenceCapableSuperclassInit" pero lo necesita
+17:06:52,223 (main) DEBUG [DataNucleus.Enhancer] - Agregando el interfaz: javax.jdo.spi.PersistenceCapable
+17:06:52,225 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original dom.simple.Role.<init> : ignorando enhance de set del campo "dom.simple.Role.permissionsList"
+17:06:52,231 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String jdoGetroleName()"
+17:06:52,232 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoSetroleName(class java.lang.String val)"
+17:06:52,233 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original dom.simple.Role.getPermissionsList, cambiando el uso del campo "dom.simple.Role.permissionsList" para utilisar "jdoGetpermissionsList()"
+17:06:52,233 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original dom.simple.Role.setPermissionsList, cambiando el uso del campo "dom.simple.Role.permissionsList" para utilisar "jdoSetpermissionsList()"
+17:06:52,236 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original dom.simple.Role.addPermission, cambiando el uso del campo "dom.simple.Role.permissionsList" para utilisar "jdoGetpermissionsList()"
+17:06:52,237 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "javax.jdo.spi.StateManager jdoStateManager"
+17:06:52,237 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "byte jdoFlags"
+17:06:52,238 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[B jdoFieldFlags"
+17:06:52,238 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "java.lang.Class jdoPersistenceCapableSuperclass"
+17:06:52,238 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.Class; jdoFieldTypes"
+17:06:52,244 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.String; jdoFieldNames"
+17:06:52,244 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "int jdoInheritedFieldCount"
+17:06:52,244 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void <clinit>()"
+17:06:52,245 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+17:06:52,245 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+17:06:52,245 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+17:06:52,245 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+17:06:52,246 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetObjectId()"
+17:06:52,246 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetVersion()"
+17:06:52,246 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoPreSerialize()"
+17:06:52,246 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+17:06:52,246 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetTransactionalObjectId()"
+17:06:52,247 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDeleted()"
+17:06:52,247 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDirty()"
+17:06:52,247 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsNew()"
+17:06:52,250 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsPersistent()"
+17:06:52,250 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsTransactional()"
+17:06:52,251 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoMakeDirty(class java.lang.String fieldName)"
+17:06:52,251 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoNewObjectIdInstance()"
+17:06:52,251 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+17:06:52,251 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoProvideFields(class [I indices)"
+17:06:52,257 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceFields(class [I indices)"
+17:06:52,257 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceFlags()"
+17:06:52,258 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+17:06:52,258 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDetached()"
+17:06:52,258 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+17:06:52,258 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+17:06:52,259 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceField(int index)"
+17:06:52,260 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoProvideField(int index)"
+17:06:52,260 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyField(class dom.simple.Role obj, int index)"
+17:06:52,266 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+17:06:52,266 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.String; __jdoFieldNamesInit()"
+17:06:52,266 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.Class; __jdoFieldTypesInit()"
+17:06:52,267 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[B __jdoFieldFlagsInit()"
+17:06:52,267 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int __jdoGetInheritedFieldCount()"
+17:06:52,267 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int jdoGetManagedFieldCount()"
+17:06:52,267 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+17:06:52,267 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+17:06:52,268 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoSuperClone()"
+17:06:52,276 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.util.SortedSet jdoGetpermissionsList(class dom.simple.Role objPC)"
+17:06:52,277 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoSetpermissionsList(class dom.simple.Role objPC, interface java.util.SortedSet val)"
+17:06:52,279 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/leandro/workspace/isisSimple160/isisSimple/dom/target/classes/dom/simple/Role.class" con definicion enhanced
+17:06:52,281 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.simple.Role
+17:06:52,284 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.Role" ha terminado
+17:06:52,284 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.ShiroUser" empezando ...
+17:06:52,285 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no implementa el interfaz "javax.jdo.spi.PersistenceCapable"!
+17:06:52,286 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el campo "jdoFlags" pero lo necesita
+17:06:52,286 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el campo "jdoPersistenceCapableSuperclass" pero lo necesita
+17:06:52,286 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el campo "jdoInheritedFieldCount" pero lo necesita
+17:06:52,286 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el campo "jdoStateManager" pero lo necesita
+17:06:52,286 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el campo "jdoFieldNames" pero lo necesita
+17:06:52,286 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el campo "jdoFieldFlags" pero lo necesita
+17:06:52,286 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el campo "jdoFieldTypes" pero lo necesita
+17:06:52,286 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoIsTransactional" pero lo necesita
+17:06:52,287 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoGetObjectId" pero lo necesita
+17:06:52,287 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoGetPersistenceManager" pero lo necesita
+17:06:52,287 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoIsDirty" pero lo necesita
+17:06:52,287 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoIsDetached" pero lo necesita
+17:06:52,291 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoNewObjectIdInstance" pero lo necesita
+17:06:52,291 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoNewObjectIdInstance" pero lo necesita
+17:06:52,291 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoCopyFields" pero lo necesita
+17:06:52,291 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoIsDeleted" pero lo necesita
+17:06:52,291 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoNewInstance" pero lo necesita
+17:06:52,297 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoNewInstance" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoGetVersion" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoProvideField" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoGetManagedFieldCount" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoReplaceField" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoCopyField" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoProvideFields" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoCopyKeyFieldsFromObjectId" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoCopyKeyFieldsFromObjectId" pero lo necesita
+17:06:52,298 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoSuperClone" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "__jdoGetInheritedFieldCount" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "__jdoFieldTypesInit" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoReplaceFlags" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "___jdo$loadClass" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoMakeDirty" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoGetTransactionalObjectId" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "__jdoFieldNamesInit" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoIsNew" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoReplaceStateManager" pero lo necesita
+17:06:52,299 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "__jdoFieldFlagsInit" pero lo necesita
+17:06:52,300 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoPreSerialize" pero lo necesita
+17:06:52,300 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoIsPersistent" pero lo necesita
+17:06:52,300 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoReplaceFields" pero lo necesita
+17:06:52,300 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoCopyKeyFieldsToObjectId" pero lo necesita
+17:06:52,300 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "jdoCopyKeyFieldsToObjectId" pero lo necesita
+17:06:52,300 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.ShiroUser" no tiene el metodo "__jdoPersistenceCapableSuperclassInit" pero lo necesita
+17:06:52,301 (main) DEBUG [DataNucleus.Enhancer] - Agregando el interfaz: javax.jdo.spi.PersistenceCapable
+17:06:52,302 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original dom.simple.ShiroUser.<init> : ignorando enhance de set del campo "dom.simple.ShiroUser.rolesList"
+17:06:52,303 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String jdoGetuserName()"
+17:06:52,303 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoSetuserName(class java.lang.String val)"
+17:06:52,304 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String jdoGetpassword()"
+17:06:52,304 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoSetpassword(class java.lang.String val)"
+17:06:52,305 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original dom.simple.ShiroUser.getRolesList, cambiando el uso del campo "dom.simple.ShiroUser.rolesList" para utilisar "jdoGetrolesList()"
+17:06:52,305 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original dom.simple.ShiroUser.setRolesList, cambiando el uso del campo "dom.simple.ShiroUser.rolesList" para utilisar "jdoSetrolesList()"
+17:06:52,305 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original dom.simple.ShiroUser.addRole, cambiando el uso del campo "dom.simple.ShiroUser.rolesList" para utilisar "jdoGetrolesList()"
+17:06:52,305 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "javax.jdo.spi.StateManager jdoStateManager"
+17:06:52,306 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "byte jdoFlags"
+17:06:52,306 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[B jdoFieldFlags"
+17:06:52,307 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "java.lang.Class jdoPersistenceCapableSuperclass"
+17:06:52,307 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.Class; jdoFieldTypes"
+17:06:52,307 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.String; jdoFieldNames"
+17:06:52,307 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "int jdoInheritedFieldCount"
+17:06:52,307 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void <clinit>()"
+17:06:52,308 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+17:06:52,308 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+17:06:52,308 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+17:06:52,308 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+17:06:52,309 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetObjectId()"
+17:06:52,309 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetVersion()"
+17:06:52,313 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoPreSerialize()"
+17:06:52,314 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+17:06:52,314 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetTransactionalObjectId()"
+17:06:52,314 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDeleted()"
+17:06:52,314 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDirty()"
+17:06:52,315 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsNew()"
+17:06:52,316 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsPersistent()"
+17:06:52,316 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsTransactional()"
+17:06:52,316 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoMakeDirty(class java.lang.String fieldName)"
+17:06:52,316 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoNewObjectIdInstance()"
+17:06:52,316 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+17:06:52,317 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoProvideFields(class [I indices)"
+17:06:52,317 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceFields(class [I indices)"
+17:06:52,317 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceFlags()"
+17:06:52,318 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+17:06:52,318 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDetached()"
+17:06:52,318 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+17:06:52,319 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+17:06:52,320 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceField(int index)"
+17:06:52,320 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoProvideField(int index)"
+17:06:52,321 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyField(class dom.simple.ShiroUser obj, int index)"
+17:06:52,321 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+17:06:52,322 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.String; __jdoFieldNamesInit()"
+17:06:52,322 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.Class; __jdoFieldTypesInit()"
+17:06:52,322 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[B __jdoFieldFlagsInit()"
+17:06:52,322 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int __jdoGetInheritedFieldCount()"
+17:06:52,322 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int jdoGetManagedFieldCount()"
+17:06:52,322 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+17:06:52,323 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+17:06:52,323 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoSuperClone()"
+17:06:52,324 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.util.SortedSet jdoGetrolesList(class dom.simple.ShiroUser objPC)"
+17:06:52,324 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoSetrolesList(class dom.simple.ShiroUser objPC, interface java.util.SortedSet val)"
+17:06:52,326 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/leandro/workspace/isisSimple160/isisSimple/dom/target/classes/dom/simple/ShiroUser.class" con definicion enhanced
+17:06:52,327 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.simple.ShiroUser
+17:06:52,327 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.ShiroUser" ha terminado
+17:06:52,327 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.SimpleObject" empezando ...
+17:06:52,329 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no implementa el interfaz "javax.jdo.spi.PersistenceCapable"!
+17:06:52,329 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el campo "jdoFlags" pero lo necesita
+17:06:52,329 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el campo "jdoPersistenceCapableSuperclass" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el campo "jdoInheritedFieldCount" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el campo "jdoStateManager" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el campo "jdoFieldNames" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el campo "jdoFieldFlags" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el campo "jdoFieldTypes" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoIsTransactional" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoGetObjectId" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoGetPersistenceManager" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoIsDirty" pero lo necesita
+17:06:52,330 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoIsDetached" pero lo necesita
+17:06:52,331 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoNewObjectIdInstance" pero lo necesita
+17:06:52,331 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoNewObjectIdInstance" pero lo necesita
+17:06:52,332 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoCopyFields" pero lo necesita
+17:06:52,333 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoIsDeleted" pero lo necesita
+17:06:52,333 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoNewInstance" pero lo necesita
+17:06:52,333 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoNewInstance" pero lo necesita
+17:06:52,333 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoGetVersion" pero lo necesita
+17:06:52,333 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoProvideField" pero lo necesita
+17:06:52,337 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoGetManagedFieldCount" pero lo necesita
+17:06:52,338 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoReplaceField" pero lo necesita
+17:06:52,338 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoCopyField" pero lo necesita
+17:06:52,338 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoProvideFields" pero lo necesita
+17:06:52,338 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoCopyKeyFieldsFromObjectId" pero lo necesita
+17:06:52,338 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoCopyKeyFieldsFromObjectId" pero lo necesita
+17:06:52,338 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoSuperClone" pero lo necesita
+17:06:52,338 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "__jdoGetInheritedFieldCount" pero lo necesita
+17:06:52,338 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "__jdoFieldTypesInit" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoReplaceFlags" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "___jdo$loadClass" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoMakeDirty" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoGetTransactionalObjectId" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "__jdoFieldNamesInit" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoIsNew" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoReplaceStateManager" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "__jdoFieldFlagsInit" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoPreSerialize" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoIsPersistent" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoReplaceFields" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoCopyKeyFieldsToObjectId" pero lo necesita
+17:06:52,339 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "jdoCopyKeyFieldsToObjectId" pero lo necesita
+17:06:52,340 (main) DEBUG [DataNucleus.Enhancer] - La clase "dom.simple.SimpleObject" no tiene el metodo "__jdoPersistenceCapableSuperclassInit" pero lo necesita
+17:06:52,340 (main) DEBUG [DataNucleus.Enhancer] - Agregando el interfaz: javax.jdo.spi.PersistenceCapable
+17:06:52,345 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String jdoGetname()"
+17:06:52,347 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoSetname(class java.lang.String val)"
+17:06:52,347 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "javax.jdo.spi.StateManager jdoStateManager"
+17:06:52,347 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "byte jdoFlags"
+17:06:52,347 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[B jdoFieldFlags"
+17:06:52,348 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "java.lang.Class jdoPersistenceCapableSuperclass"
+17:06:52,354 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.Class; jdoFieldTypes"
+17:06:52,354 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.String; jdoFieldNames"
+17:06:52,354 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "int jdoInheritedFieldCount"
+17:06:52,355 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void <clinit>()"
+17:06:52,355 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+17:06:52,355 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+17:06:52,355 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+17:06:52,358 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+17:06:52,358 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetObjectId()"
+17:06:52,358 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetVersion()"
+17:06:52,359 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoPreSerialize()"
+17:06:52,363 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+17:06:52,364 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoGetTransactionalObjectId()"
+17:06:52,364 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDeleted()"
+17:06:52,364 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDirty()"
+17:06:52,364 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsNew()"
+17:06:52,365 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsPersistent()"
+17:06:52,365 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsTransactional()"
+17:06:52,365 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoMakeDirty(class java.lang.String fieldName)"
+17:06:52,365 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoNewObjectIdInstance()"
+17:06:52,365 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+17:06:52,366 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoProvideFields(class [I indices)"
+17:06:52,368 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceFields(class [I indices)"
+17:06:52,368 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceFlags()"
+17:06:52,369 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+17:06:52,369 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean jdoIsDetached()"
+17:06:52,369 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+17:06:52,369 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+17:06:52,370 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoReplaceField(int index)"
+17:06:52,370 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoProvideField(int index)"
+17:06:52,371 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyField(class dom.simple.SimpleObject obj, int index)"
+17:06:52,371 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+17:06:52,371 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.String; __jdoFieldNamesInit()"
+17:06:52,371 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.Class; __jdoFieldTypesInit()"
+17:06:52,371 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[B __jdoFieldFlagsInit()"
+17:06:52,371 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int __jdoGetInheritedFieldCount()"
+17:06:52,372 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int jdoGetManagedFieldCount()"
+17:06:52,372 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+17:06:52,376 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+17:06:52,377 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object jdoSuperClone()"
+17:06:52,382 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/leandro/workspace/isisSimple160/isisSimple/dom/target/classes/dom/simple/SimpleObject.class" con definicion enhanced
+17:06:52,383 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.simple.SimpleObject
+17:06:52,384 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "dom.simple.SimpleObject" ha terminado
+17:06:52,387 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases. Tiempos : input=563 ms, enhance=417 ms, total=980 ms. Compruebe el LOG para los detalles
