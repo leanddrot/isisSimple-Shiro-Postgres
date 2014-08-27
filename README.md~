@@ -8,7 +8,9 @@ Test of Shiro users management from Isis, and persistence in PostgreSQL
 
 * Create a user "isis" with password "isis" in PostgreSQL
 * Create a database named "isisSimple"
-* Compile and run the project
+* Compile and run the project:
+	$ mvn clean install
+	$ java -jar webapp/target/isisSimple-webapp-1.0-SNAPSHOT-jetty-console.jar
 * Run these scripts to add a user named "pepito", with password "123456", who has an "administrator" role
   and full permissions
 * login with user "pepito" and pass "123456"
@@ -19,7 +21,9 @@ Prueba de manejo de usuarios Shiro desde Isis, y persistencia en PostgreSQL
 
 * Crea un usuario "isis" con password "isis" en postgreSQL
 * Crea una base de datos llamada "isisSimple"
-* Compila y ejecuta el proyecto
+* Compila y ejecuta el proyecto:
+	$ mvn clean install
+	$ java -jar webapp/target/isisSimple-webapp-1.0-SNAPSHOT-jetty-console.jar
 * Ejecuta estos scripts para crear un usuario llamado "pepito" con password "123456", que tiene un rol 
   "administrator" que le da permisos totales
 * logueate con usuario "pepito" y pass "123456"
