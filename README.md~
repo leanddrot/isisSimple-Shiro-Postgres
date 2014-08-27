@@ -2,9 +2,9 @@
 isisSimple-Shiro-Postgres
 =========================
 
-Test of Shiro users management from Isis, and persistence in PostgreSQL
+(ENG)
 
-Prueba de manejo de usuarios Shiro desde Isis, y persistencia en PostgreSQL
+Test of Shiro users management from Isis, and persistence in PostgreSQL
 
 * Create a user "isis" with password "isis" in PostgreSQL
 * Create a database named "isisSimple"
@@ -12,8 +12,10 @@ Prueba de manejo de usuarios Shiro desde Isis, y persistencia en PostgreSQL
 * Run these scripts to add a user named "pepito", with password "123456", who has an "administrator" role
   and full permissions
 * login with user "pepito" and pass "123456"
- 
 
+(SPA)
+ 
+Prueba de manejo de usuarios Shiro desde Isis, y persistencia en PostgreSQL
 
 * Crea un usuario "isis" con password "isis" en postgreSQL
 * Crea una base de datos llamada "isisSimple"
