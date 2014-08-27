@@ -39,6 +39,8 @@ $ java -jar webapp/target/isisSimple-webapp-1.0-SNAPSHOT-jetty-console.jar
 * logueate con usuario "pepito" y pass "123456"
 
 
+_SQL_
+===
 
 INSERT INTO "ShiroUser"(
             id, password, "userName", version)
