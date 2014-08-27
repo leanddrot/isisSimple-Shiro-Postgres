@@ -60,10 +60,26 @@ public class PermissionRepository {
         container.persistIfNotAlready(obj);
         return obj;
     }
-
-        
+            
     //endregion
 
+    
+    
+    //region > remove Permission (action)
+    // //////////////////////////////////////
+    
+    @ActionSemantics(Of.NON_IDEMPOTENT)
+    @MemberOrder(sequence = "4")
+    @Named("Remove Permission")
+    public String removePermission(@Named("Permission") Permission permission) {
+    	String permissionDescription = permission.getPermissionDescription();
+    	container.remove(permission);
+        return "The permission " + permissionDescription + " has been removed";
+    }
+
+    //endregion
+    
+    
     //region > injected services
     // //////////////////////////////////////
 

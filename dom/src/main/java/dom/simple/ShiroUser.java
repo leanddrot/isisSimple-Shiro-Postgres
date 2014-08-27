@@ -11,10 +11,12 @@ import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.VersionStrategy;
 
 import org.apache.isis.applib.DomainObjectContainer;
+import org.apache.isis.applib.annotation.Bounded;
 import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.Named;
 import org.apache.isis.applib.annotation.ObjectType;
 import org.apache.isis.applib.annotation.Render;
+import org.apache.isis.applib.annotation.Title;
 
 @javax.jdo.annotations.PersistenceCapable(identityType=IdentityType.DATASTORE)
 @javax.jdo.annotations.DatastoreIdentity(
@@ -24,6 +26,7 @@ import org.apache.isis.applib.annotation.Render;
         strategy=VersionStrategy.VERSION_NUMBER, 
         column="version")
 @ObjectType("ShiroUser")
+@Bounded
 public class ShiroUser {
 	
 	// {{ UserName (property)
@@ -31,6 +34,7 @@ public class ShiroUser {
 
 	@MemberOrder(sequence = "1")
 	@Column(allowsNull = "false")
+	@Title
 	public String getUserName() {
 		return userName;
 	}
@@ -58,7 +62,7 @@ public class ShiroUser {
 	
 	// {{ RolesList (Collection)
 	@Join
-	@Element(dependent = "true")
+	@Element(dependent = "false")
 	
 	private SortedSet<Role> rolesList = new TreeSet<Role>();
 
@@ -78,7 +82,7 @@ public class ShiroUser {
     // //////////////////////////////////////
     
     @MemberOrder(sequence = "3")
-    @Named("Add Role for this User")
+    @Named("Add Role for this User")    
     public ShiroUser addRole(
             final @Named("Role") Role role) {
               
@@ -89,6 +93,24 @@ public class ShiroUser {
 
     //endregion
 
+  //region > remove permission (action)
+    // //////////////////////////////////////
+    
+    @MemberOrder(sequence = "5")
+    
+    @Named("Remove Role for this User")
+    public ShiroUser removeRole(
+            final @Named("Role") Role role) {
+    	
+    	getRolesList().remove(role);    	
+        return this;
+    }
+
+    public SortedSet<Role> choices0RemoveRole(){
+    	return getRolesList();
+    }
+    
+    //endregion
 
 
     //region > injected services

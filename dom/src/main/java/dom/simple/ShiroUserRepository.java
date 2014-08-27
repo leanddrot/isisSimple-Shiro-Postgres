@@ -7,14 +7,18 @@ import java.util.TreeSet;
 import org.apache.isis.applib.DomainObjectContainer;
 import org.apache.isis.applib.annotation.ActionSemantics;
 import org.apache.isis.applib.annotation.Bookmarkable;
+import org.apache.isis.applib.annotation.Bounded;
 import org.apache.isis.applib.annotation.DomainService;
+import org.apache.isis.applib.annotation.Hidden;
 import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.Named;
 import org.apache.isis.applib.annotation.ActionSemantics.Of;
+import org.apache.isis.applib.annotation.Where;
 
 
 @DomainService(menuOrder = "25", repositoryFor = ShiroUser.class)
 @Named("Shiro User")
+
 public class ShiroUserRepository {
 	
 
@@ -44,11 +48,13 @@ public class ShiroUserRepository {
 
     //endregion
 
+    
     //region > create (action)
     // //////////////////////////////////////
     
     @MemberOrder(sequence = "2")
     @Named("Create new User")
+    @Hidden(where = Where.OBJECT_FORMS)
     public ShiroUser create(
             final @Named("Name") String userName,
             final @Named("Password") String password,
@@ -67,6 +73,19 @@ public class ShiroUserRepository {
     //endregion
     
     
+    //region > remove User (action)
+    // //////////////////////////////////////
+    
+    @ActionSemantics(Of.NON_IDEMPOTENT)
+    @MemberOrder(sequence = "4")
+    @Named("Remove User")
+    public String removeUser(@Named("User") ShiroUser shiroUser) {
+    	String userName = shiroUser.getUserName();
+    	container.remove(shiroUser);
+        return "The user " + userName + " has been removed";
+    }
+
+    //endregion
   
     //region > injected services
     // //////////////////////////////////////

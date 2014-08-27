@@ -8,8 +8,10 @@ import org.apache.isis.applib.DomainObjectContainer;
 import org.apache.isis.applib.annotation.ActionSemantics;
 import org.apache.isis.applib.annotation.Bookmarkable;
 import org.apache.isis.applib.annotation.DomainService;
+import org.apache.isis.applib.annotation.Hidden;
 import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.Named;
+import org.apache.isis.applib.annotation.Where;
 import org.apache.isis.applib.annotation.ActionSemantics.Of;
 
 
@@ -48,6 +50,7 @@ public class RoleRepository {
     
     @MemberOrder(sequence = "2")
     @Named("Create New Role")
+    @Hidden(where = Where.OBJECT_FORMS)
     public Role create(
             final @Named("Name") String roleName,
             final @Named("Permission") Permission permission) {
@@ -63,6 +66,21 @@ public class RoleRepository {
 
     //endregion
 
+    //region > remove Role (action)
+    // //////////////////////////////////////
+    
+    @ActionSemantics(Of.NON_IDEMPOTENT)
+    @MemberOrder(sequence = "4")
+    @Named("Remove Role")
+    public String removeRole(@Named("Role") Role role) {
+    	String roleName = role.getRoleName();
+    	container.remove(role);
+        return "The role " + roleName + " has been removed";
+    }
+
+    //endregion
+    
+    
     //region > injected services
     // //////////////////////////////////////
 
