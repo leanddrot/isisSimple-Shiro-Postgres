@@ -72,10 +72,10 @@ public class PermissionRepository {
     @MemberOrder(sequence = "4")
     @Named("Remove Permission")
     public String removePermission(@Named("Permission") Permission permission) {
-    	String permissionDescription = permission.getPermissionDescription();
-    	container.remove(permission);
-        return "The permission " + permissionDescription + " has been removed";
-    }
+    		String permissionDescription = permission.getPermissionDescription();
+			container.remove(permission);
+			return "The permission " + permissionDescription + " has been removed";
+	}
 
     //endregion
     
