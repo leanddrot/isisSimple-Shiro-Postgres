@@ -35,6 +35,12 @@ $ java -jar webapp/target/isisSimple-webapp-1.0-SNAPSHOT-jetty-console.jar
 * logueate con usuario "pepito" y pass "123456"
 
 
+###_Class Diagram / Diagrama de Clases_
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/classDiagram.jpg" width=600"/>
+
+
+
 ###_SQL_
 
 
