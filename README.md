@@ -33,5 +33,25 @@ $ java -jar webapp/target/isisSimple-webapp-1.0-SNAPSHOT-jetty-console.jar
 
 ###_Class Diagram / Diagrama de Clases_
 
-<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/classDiagram.jpg" width=600"/>
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/classDiagram.jpg" width=600"/>
+
+
+###_Screenshots / Capturas_
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/login.png" width=600"/>
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/user_menu.png" width=600"/>
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/user.png" width=600"/>
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/role.png" width=600"/>
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/list_permissions.png" width=600"/>
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/create_user.png" width=600"/>
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/remove_user.png" width=600"/>
+
+<img src="https://raw.githubusercontent.com/leanddrot/isisSimple-Shiro-Postgres/master/images/auser.png" width=600"/>
+
 
