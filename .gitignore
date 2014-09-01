@@ -1,3 +1,4 @@
+# .gitignore copied from Estatio project
 *~
 *.swp
 *.class
