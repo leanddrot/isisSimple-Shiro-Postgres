@@ -29,8 +29,8 @@ public class Permission implements Comparable<Permission>{
 		return permissionDescription;
 	}
 
-	public void setPermissionDescription(final String roleName) {
-		this.permissionDescription = roleName;
+	public void setPermissionDescription(final String permissionDescription) {
+		this.permissionDescription = permissionDescription;
 	}
 	// }}
 	
